@@ -16,4 +16,4 @@
 - https://github.com/TaleLin/lin-ui
 
 ## 笔记目录
-#### [>小程序代码构成补充](http://a ">小程序代码构成补充")
+#### [小程序代码构成补充>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90%E8%A1%A5%E5%85%85 "小程序代码构成补充>")

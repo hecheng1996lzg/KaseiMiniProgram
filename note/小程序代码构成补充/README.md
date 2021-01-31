@@ -1,4 +1,4 @@
-# 小程序代码构成补充 [>返回](https://github.com/hecheng1996lzg/KaseiMiniProgram ">返回")
+# 小程序代码构成补充 [返回>](https://github.com/hecheng1996lzg/KaseiMiniProgram "返回>")
 - page的wxml文件：类似html描述结构。
 - page的wxss文件：类似css描述样式。
 - page的json文件：此page的配置项。
