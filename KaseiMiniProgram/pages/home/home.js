@@ -1,7 +1,7 @@
 // pages/home/home.js
 import {
-  config
-} from "../../config/config"
+  Theme
+} from "../../model/theme";
 
 Page({
 
@@ -15,21 +15,10 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-    wx.request({
-      url: `${config.apiBaseUrl}v1/theme/by/names`,
-      method: 'GET',
-      data: {
-        names: 't-1',
-      },
-      header: {
-        'appkey': config.appkey
-      },
-      success: res => {
-        this.setData({
-          topTheme: res.data[0]
-        })
-      }
+  onLoad: async function (options) {
+    const data = await Theme.getHomeLoacationA();
+    this.setData({
+      topTheme: data[0]
     })
   },
 
