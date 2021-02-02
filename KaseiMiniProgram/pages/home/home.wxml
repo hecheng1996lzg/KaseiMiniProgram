@@ -9,4 +9,5 @@
       </swiper-item>
     </block>
   </swiper>
+  <k-category-grid grid="{{grid}}"></k-category-grid>
 </view>

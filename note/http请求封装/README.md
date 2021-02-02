@@ -90,7 +90,8 @@ doIt();
 ```
 
 ## 小程序中使用async await封装wx.request
-将小程序内置非promise API转换为promise
+将小程序内置非promise API转换为promise  
+这里使用程序设计中的**代理模式**  
 ```javascript
 // utils/util.js
 const promisic = function (func) {
