@@ -1,8 +1,4 @@
 import {
-  config
-} from "../config/config";
-
-import {
   Http
 } from "../utils/http";
 

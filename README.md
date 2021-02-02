@@ -17,4 +17,5 @@
 
 ## 笔记目录
 #### [小程序代码构成补充>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90%E8%A1%A5%E5%85%85 "小程序代码构成补充>")
-#### [JS异步>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/JS%E5%BC%82%E6%AD%A5 "JS异步>")
+#### [http请求封装>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/JS%E5%BC%82%E6%AD%A5 "http请求封装>")
+#### [semver语义化版本号>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/semver语义化版本号 "semver语义化版本号>")

@@ -1,4 +1,4 @@
-# JS异步 [返回>](https://github.com/hecheng1996lzg/KaseiMiniProgram "返回>")
+# http请求封装 [返回>](https://github.com/hecheng1996lzg/KaseiMiniProgram "返回>")
 
 ## 什么时候需要用JS异步
 ```javascript

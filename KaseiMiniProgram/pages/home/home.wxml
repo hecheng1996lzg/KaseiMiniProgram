@@ -1,3 +1,12 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
-<image class="top-theme" src="{{topTheme.entrance_img}}" alt=""></image>
+<view>
+  <image class="top-theme" src="{{themeA.entrance_img}}" alt=""></image>
+  <swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
+    <block wx:for="{{bannerB.items}}"  wx:key="*this">
+      <swiper-item>
+        <span></span>
+        <image class="swiper" src="{{item.img}}" alt=""></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
