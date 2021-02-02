@@ -16,6 +16,6 @@
 - https://github.com/TaleLin/lin-ui
 
 ## 笔记目录
-#### [小程序代码构成补充>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%BB%A3%E7%A0%81%E6%9E%84%E6%88%90%E8%A1%A5%E5%85%85 "小程序代码构成补充>")
-#### [http请求封装>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/JS%E5%BC%82%E6%AD%A5 "http请求封装>")
+#### [小程序代码构成补充>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/小程序代码构成补充 "小程序代码构成补充>")
+#### [http请求封装>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/http请求封装 "http请求封装>")
 #### [semver语义化版本号>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/semver语义化版本号 "semver语义化版本号>")
