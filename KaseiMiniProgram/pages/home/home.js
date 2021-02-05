@@ -8,7 +8,7 @@ import {
 import {
   Category
 } from "../../model/category";
-import{
+import {
   Activity
 } from "../../model/activity";
 
@@ -19,6 +19,7 @@ Page({
    */
   data: {
     themeA: null,
+    themeE: null,
     bannerB: null,
     gridC: [],
     activityD: null,
@@ -33,19 +34,23 @@ Page({
   },
 
   async initAllData() {
-    const themeA = await Theme.getHomeLocationA();
+    const theme = new Theme();
+    await theme.getThemes();
+    const themeA = theme.getHomeLocationA();
+    const themeE = theme.getHomeLocationE();
     const bannerB = await Banner.getHomeLocationB();
     const gridC = await Category.getHomeLocationC();
     const activityD = await Activity.getHomeLocationD();
     this.setData({
-      themeA: themeA,
+      themeA,
+      themeE,
       bannerB,
       gridC,
       activityD
     })
   },
 
-  topThemeBindload(e){
+  topThemeBindload(e) {
     this.setData({
       topThemeHeight: e.detail.height
     })
