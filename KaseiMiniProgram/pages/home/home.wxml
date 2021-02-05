@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <view>
-  <image class="top-theme" src="{{themeA.entrance_img}}" alt=""></image>
+  <image class="top-theme" src="http://www.dmoe.cc/random.php" mode="widthFix" bindload="topThemeBindload" style="height: {{topThemeHeight}}rpx;" alt=""></image>
   <swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
     <block wx:for="{{bannerB.items}}"  wx:key="*this">
       <swiper-item>
@@ -9,5 +9,9 @@
       </swiper-item>
     </block>
   </swiper>
-  <k-category-grid grid="{{grid}}"></k-category-grid>
+
+  <k-category-grid grid="{{gridC}}"></k-category-grid>
+
+  <image class="tactivity" src="{{activityD.entrance_img}}" alt=""></image>
+
 </view>

@@ -3,13 +3,19 @@ import {
 } from "../utils/http";
 
 class Theme {
-  static async getHomeLoacationA() {
+  static locationA = 't-1';
+  static locationE = 't-2';
+  static async getHomeLocationA() {
     return await Http.request({
-      url: 'v1/theme/by/names',
+      url: 'theme/by/names',
       data: {
-        names: 't-1,t-2'
+        names: Theme.locationA
       }
     })
+  }
+
+  static async getHomeLocationE(){
+
   }
 }
 

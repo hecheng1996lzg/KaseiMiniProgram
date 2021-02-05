@@ -8,3 +8,9 @@
   width: 100%;
   height: 360rpx;
 }
+
+.tactivity{
+  margin-top: 20rpx;
+  width: 100%;
+  height: 310rpx;
+}

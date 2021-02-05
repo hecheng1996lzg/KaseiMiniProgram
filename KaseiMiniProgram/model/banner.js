@@ -6,7 +6,7 @@ class Banner {
   static locationB = 'b-1'
   static getHomeLocationB() {
     return Http.request({
-      url: `/v1/banner/name/${Banner.locationB}`
+      url: `banner/name/${Banner.locationB}`
     })
   }
 }

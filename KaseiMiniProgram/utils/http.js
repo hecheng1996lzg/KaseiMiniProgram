@@ -17,7 +17,7 @@ class Http {
     method = 'GET',
   }) {
     const res = await promisic(wx.request)({
-      url: `${config.apiBaseUrl}${url}`,
+      url: `${config.apiBaseUrl}${config.version}${url}`,
       data,
       method,
       header:{
