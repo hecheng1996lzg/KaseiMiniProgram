@@ -1,8 +1,9 @@
 <!--pages/home/home.wxml-->
 <view>
-  <image class="top-theme" src="{{themeA.entrance_img}}" mode="widthFix" bindload="topThemeBindload" style="height: {{topThemeHeight}}rpx;" alt=""></image>
+  <image class="top-theme" src="{{themeA.entrance_img}}" mode="widthFix" bindload="topThemeBindload"
+    style="height: {{topThemeHeight}}rpx;" alt=""></image>
   <swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
-    <block wx:for="{{bannerB.items}}"  wx:key="*this">
+    <block wx:for="{{bannerB.items}}" wx:key="*this">
       <swiper-item>
         <span></span>
         <image class="swiper" src="{{item.img}}" alt=""></image>
@@ -12,6 +13,18 @@
 
   <k-category-grid grid="{{gridC}}"></k-category-grid>
 
-  <image class="tactivity" src="{{activityD.entrance_img}}" alt=""></image>
+  <image class="activity" src="{{activityD.entrance_img}}" alt=""></image>
+
+  <k-spu-scroll theme="{{themeE}}" spu-list="{{themeESpu}}" wx:if="{{themeE.online}}"></k-spu-scroll>
+
+  <image src="{{themeF.entrance_img}}" class="quality" alt=""></image>
+
+  <k-hot-list banner="{{bannerG}}"></k-hot-list>
+
+  <image src="{{themeH.entrance_img}}" class="fashion" alt=""></image>
+
+  <view class="spu-bottom">
+    <image class="title-spu-bottom" src="/imgs/home/download.png" alt=""></image>
+  </view>
 
 </view>

@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "k-category-grid": "/components/category-grid/index"
+    "k-category-grid": "/components/category-grid/index",
+    "k-spu-scroll": "/components/spu-scroll/index",
+    "k-hot-list": "/components/hot-list/index"
   }
 }

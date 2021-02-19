@@ -55,9 +55,16 @@ fun1()
     .then(callback => fun2(callback))
     .then(callback => fun3(callback))
 ```
+## 什么时候加async
+async的作用是强制返回promise。  
+加不加主要看内部返回的数据类型。如果可以保证是promise，则可以省略不加。
+
+## 什么时候加await
+await的作用简单来讲就是堵塞住代码的执行。  
+加不加主要看后续是否有代码需要使用到异步请求的数据。如果有，加一个await来等待。
 
 ### 3. aysnc await
-忘记的可以参考[这篇](https://segmentfault.com/a/1190000007535316 "这篇")复习
+忘记的可以参考[这篇](https://segmentfault.com/a/1190000007535316 "这篇")复习。  
 ```javascript
 function fun1(){
     return new Promise(resolve => {

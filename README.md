@@ -24,3 +24,4 @@
 #### [semver语义化版本号>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/semver语义化版本号 "semver语义化版本号>")
 #### [HTTP请求次数优化>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/HTTP请求次数优化 "HTTP请求次数优化>")
 #### [SPU&SKU>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/SPU&SKU "SPU&SKU>")
+#### [面向对象知识回顾>](https://github.com/hecheng1996lzg/KaseiMiniProgram/tree/main/note/面向对象知识回顾 "面向对象知识回顾>")

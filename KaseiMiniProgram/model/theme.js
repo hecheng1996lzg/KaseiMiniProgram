@@ -27,6 +27,24 @@ class Theme {
   getHomeLocationE() {
     return this.themes.find(t => t.name === Theme.locationE);
   }
+
+  getHomeLocationF() {
+    return this.themes.find(t => t.name === Theme.locationF);
+  }
+
+  getHomeLocationH() {
+    return this.themes.find(t => t.name === Theme.locationH);
+  }
+
+  static getHomeLocationESpu() {
+    return Theme.getThemeSpuByName(Theme.locationE);
+  }
+
+  static getThemeSpuByName(name) {
+    return Http.request({
+      url: `theme/name/${name}/with_spu`
+    })
+  }
 }
 
 export {
